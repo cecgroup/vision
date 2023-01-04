@@ -3,15 +3,16 @@ export default {
     description: 'CEC',
     base: '/vision/',
 
+    lastUpdated: true,
+    // outlineTitle: '大纲',
+    aside: true,
     
     themeConfig: {
         logo: '/logo.svg',
         // siteTitle: false,
 
-        outlineTitle: '大纲',
-        aside: true,
-        lastUpdated: true,
 
+        
         algolia: {
             appId: 'N26XKP71HQ', // 需要替换
             apiKey: 'b68973e86f1cea6fe107eecb587b3d40', // 需要替换
@@ -35,19 +36,26 @@ export default {
             //   ]
             // }
           ],
-          sidebar: [
-            {
-              text: '工一数智',
-              items: [
-                { text: 'Introduction', link: '/introduction' },
-                { text: 'Getting Started', link: '/getting-started' },
-              ]
-            }
-          ],
+        //   sidebar: [
+        //     {
+        //       text: '工一数智',
+        //       items: [
+        //         { text: 'Introduction', link: '/introduction' },
+        //         { text: 'Getting Started', link: '/getting-started' },
+        //       ]
+        //     }
+        //   ],
+        //   sidebar: { 
+        //     '/cec/': getGuideSidebar()
+        //   },
           editLink: {
             pattern: 'https://github.com/cecgroup/vision/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
-          }
+          },
+        //   footer: {
+        //     // message: 'Released under the MIT License.',
+        //     copyright: 'Copyright © 工一数智'
+        //     }
     }
 
     
