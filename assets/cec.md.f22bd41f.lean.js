@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,b as c}from"./app.5c8f2bad.js";const m=JSON.parse('{"title":"关于我们","description":"","frontmatter":{},"headers":[],"relativePath":"cec.md"}'),r={name:"cec.md"},_=c("",9),p=[_];function s(n,o,d,i,h,l){return t(),a("div",null,p)}const u=e(r,[["render",s]]);export{m as __pageData,u as default};
