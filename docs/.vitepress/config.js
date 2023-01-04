@@ -8,6 +8,9 @@ export default {
         logo: '/logo.svg',
         // siteTitle: false,
 
+        outlineTitle: '大纲',
+        aside: true,
+        lastUpdated: true,
 
         algolia: {
             appId: 'N26XKP71HQ', // 需要替换
@@ -22,7 +25,7 @@ export default {
         ],
 
         nav: [
-            { text: '工一数智', link: '/suggestion' }
+            { text: '工一数智', link: '/cec' }
             // {
             //   text: '工一',
             //   items: [
@@ -34,7 +37,7 @@ export default {
           ],
           sidebar: [
             {
-              text: 'Guide',
+              text: '工一数智',
               items: [
                 { text: 'Introduction', link: '/introduction' },
                 { text: 'Getting Started', link: '/getting-started' },
