@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./app.367dc19a.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"suggestion.md","lastUpdated":1672816016000}'),a={name:"suggestion.md"};function o(n,r,c,i,p,d){return s(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
