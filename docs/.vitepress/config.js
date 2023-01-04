@@ -22,15 +22,15 @@ export default {
         ],
 
         nav: [
-            { text: '方案与建议', link: '/suggestion' },
-            {
-              text: '工一',
-              items: [
-                { text: '关于我们', link: '/aboutus' },
-                { text: '使命', link: '/mission' },
-                { text: '愿景', link: '/vision' }
-              ]
-            }
+            { text: '工一数智', link: '/suggestion' }
+            // {
+            //   text: '工一',
+            //   items: [
+            //     { text: '关于我们', link: '/aboutus' },
+            //     { text: '使命', link: '/mission' },
+            //     { text: '愿景', link: '/vision' }
+            //   ]
+            // }
           ],
           sidebar: [
             {
