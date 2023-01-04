@@ -11,7 +11,8 @@ export default {
         logo: '/logo.svg',
         // siteTitle: false,
 
-
+        outlineTitle: '本页目录',
+        // outline:2,
         
         algolia: {
             appId: 'N26XKP71HQ', // 需要替换
@@ -36,22 +37,37 @@ export default {
             //   ]
             // }
           ],
-        //   sidebar: [
-        //     {
-        //       text: '工一数智',
-        //       items: [
-        //         { text: 'Introduction', link: '/introduction' },
-        //         { text: 'Getting Started', link: '/getting-started' },
-        //       ]
-        //     }
-        //   ],
-        //   sidebar: { 
-        //     '/cec/': getGuideSidebar()
-        //   },
-          editLink: {
-            pattern: 'https://github.com/cecgroup/vision/edit/main/docs/:path',
-            text: 'Edit this page on GitHub'
-          },
+
+          sidebar: [
+            {
+                text: '工一数智',
+                items: [
+                  { text: '关于我们', link: '/index#关于我们' },
+                  { text: '我们的使命', link: '/index#我们的使命' },
+                  { text: '我们的愿景', link: '/index#我们的愿景' },
+                ]
+              },
+            {
+              text: '我的思考',
+              items: [
+                { text: '前言', link: '/suggestion' },
+                { text: '想清楚', link: '/suggestion#' },
+              ]
+            },
+            {
+              text: '我的提案',
+              items: [
+                { text: 'Item C', link: '/item-c' },
+                { text: 'Item D', link: '/item-d' },
+              ]
+            }
+          ],
+        // sidebar: getSideBar("./docs"),
+
+        editLink: {
+        pattern: 'https://github.com/cecgroup/vision/edit/main/docs/:path',
+        text: 'Edit this page on GitHub'
+        },
         //   footer: {
         //     // message: 'Released under the MIT License.',
         //     copyright: 'Copyright © 工一数智'
