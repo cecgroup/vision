@@ -59,9 +59,9 @@ export default {
               text: '我的提案',
               items: [
                 { text: '分阶段目标', link: '/plan#分阶段目标' },
-                { text: '实现步骤', link: '/plan#实现步骤' },
-                { text: '云办公&私有云方案', link: '/plan#云办公&私有云方案' },
-                { text: '数字化核心团队建设方案', link: '/plan#数字化核心团队建设方案' },
+                { text: '整体数字化方案', link: '/plan#整体数字化方案' },
+                { text: '具体实施', link: '/plan#具体实施' },
+
               ]
             },
             // {
