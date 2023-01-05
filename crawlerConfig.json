@@ -1,5 +1,5 @@
 {
-    "index_name": "visoion-index", 
+    "index_name": "vision-index", 
     "start_urls": ["https://cecgroup.github.io/vision/"], 
     "rateLimit": 8,
     "maxDepth": 10,
