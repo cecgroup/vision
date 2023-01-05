@@ -50,17 +50,29 @@ export default {
             {
               text: '我的思考',
               items: [
-                { text: '前言', link: '/suggestion' },
-                { text: '想清楚', link: '/suggestion#' },
+                { text: '前言', link: '/consideration#前言' },
+                { text: '想清楚', link: '/consideration#想清楚' },
+                { text: '说明白', link: '/consideration#说明白' },
               ]
             },
             {
               text: '我的提案',
               items: [
-                { text: 'Item C', link: '/item-c' },
-                { text: 'Item D', link: '/item-d' },
+                { text: '分阶段目标', link: '/plan#分阶段目标' },
+                { text: '实现步骤', link: '/plan#实现步骤' },
+                { text: '云办公&私有云方案', link: '/plan#云办公&私有云方案' },
+                { text: '数字化核心团队建设方案', link: '/plan#数字化核心团队建设方案' },
               ]
-            }
+            },
+            // {
+            //     text: 'BP',
+            //     items: [
+            //       { text: '我的BP', link: '/bp#我的BP' },
+            //     //   { text: '实现步骤', link: '/plan#实现步骤' },
+            //     //   { text: '云办公&私有云方案', link: '/plan#云办公&私有云方案' },
+            //     //   { text: '核心数字化团队建设方案', link: '/plan#核心数字化团队建设方案&私有云' },
+            //     ]
+            //   }
           ],
         // sidebar: getSideBar("./docs"),
 
